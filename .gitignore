@@ -1,0 +1,105 @@
+__pycache__/
+build/
+develop-eggs/
+dist/
+downloads/
+docs/_build/
+eggs/
+.eggs/
+*.egg-info/
+ENV/
+env/
+htmlcov/
+.hypothesis/
+instance/
+parts/
+sdist/
+target/
+.tox/
+venv/
+*.py[cod]
+*$py.class
+*.so
+.env
+*.egg
+.installed.cfg
+*.manifest
+celerybeat-schedule
+*,cover
+.coverage
+.coverage.*
+coverage.xml
+.cache
+.DS_Store
+.idea/workspace.xml
+.idea/tasks.xml
+.ipynb_checkpoints
+local_settings.py
+*.log
+MANIFEST
+*.mo
+nosetests.xml
+pip-log.txt
+pip-delete-this-directory.txt
+.python-version
+*.rdb
+.scrapy
+*.spec
+*.pot
+.webassets-cache
+
+
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# CMake
+cmake-build-debug/
+cmake-build-release/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+*.log
+
+.idea/**/**
+
