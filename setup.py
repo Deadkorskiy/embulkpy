@@ -3,10 +3,8 @@ import setuptools
 with open("README.md", "r", encoding='utf-8') as readme:
     long_description = readme.read()
 
-install_requires = []
 with open("requirements.txt", "rt", encoding='utf-8') as f:
-    for line in f.readlines():
-        install_requires.append(line.replace('==', '=').replace('\n', ''))
+    install_requires = f.read()
 
 
 setuptools.setup(

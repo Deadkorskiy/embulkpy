@@ -2,8 +2,12 @@
 
 Python wrapper for embulk
 
+## Install 
+```bash
+python -m pip install git+ssh://git@github.com/Deadkorskiy/embulkpy.git
+```
 
-Usage example:
+## Usage example
 ```python
 from embulkpy.embulk import Embulk 
 from embulkpy.tbl_file_util import TblFileUtil
